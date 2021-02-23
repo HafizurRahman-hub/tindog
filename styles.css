@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Monserrat';
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    color: grey;
+}
+
+/* text align senter sections  */
+
+.feature-section, .testimonials-section, .press-section, .pricing-section, .cta-section, .footer-section {
+    text-align: center;
+}
+
+/* white-color  */
+
+.white-color {
+    color: #fff;
+}
+
+/* bg-dark-pink color  */
+
+.bg-dark-pink {
+    background-color: #ff4c68;
+}
+
+/* whitish-pink color  */
+
+.bg-whitish-pink {
+    background-color: #ef8172;
+}
+
+/* custom padding  */
+
+.custom-padding {
+    padding: 7% 15%;
+}
+
+/* sections */
+
+/* title section  */
+
+.title {
+    padding-top: 3%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-link {
+    margin: 0 2rem 0 0;
+    font-size: large;
+}
+
+.download-btn {
+    margin: 1rem 1.5rem 0.5rem 0;
+}
+
+.rotate-img {
+    position: absolute;
+    width: 20%;
+    transform: rotate(25deg);
+    right: 25%;
+}
+
+/* features section  */
+
+#features {
+    background-color: #fff;
+    position: relative;
+}
+
+.title-heading {
+    font-weight: bold;
+    font-size: 10rem;
+    padding: 0.5rem;
+}
+
+.icon-color {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-color:hover {
+    color: #ff4c68;
+}
+
+/* testimonial section  */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.pricing-heading {
+    padding: 7% 15% 0 15%;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    width: 15%;
+    margin: 1rem;
+}
+
+/* press section  */
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 30px 20px;
+}
+
+/* pricing section  */
+
+.make-margin {
+    margin-bottom: 3.5rem;
+}
+
+.pricing-para {
+    padding-top: 1.5rem;
+}
+
+/* cta section  */
+
+#cta h2 {
+    padding-bottom: 2rem;
+}
+
+#cta {
+    margin-top: 5%;
+}
+
+/* footer section  */
+
+#footer {
+    padding: 7% 15% 0;
+}
+
+.footer-icon {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.footer-para {
+    padding-top: 2%;
+}
+
+/* responsive for other devices  */
+
+@media (max-width:990px) {
+    #title {
+        text-align: center;
+    }
+    .rotate-img {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
